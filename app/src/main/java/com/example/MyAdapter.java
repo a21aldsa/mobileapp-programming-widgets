@@ -34,3 +34,4 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
         return mountains.size();
     }
 }
+
