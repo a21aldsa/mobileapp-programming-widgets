@@ -12,5 +12,7 @@
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/backgrounds/scenic"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleY="3"
+        android:scaleX="3"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
