@@ -17,10 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        recyclerView = findViewById(R.id.recycler_view);
-        recyclerView.setAdapter(new MyAdapter());
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 }
 
