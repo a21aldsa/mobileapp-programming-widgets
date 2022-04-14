@@ -16,6 +16,12 @@
         android:scaleY="3"
         android:scaleX="3"/>
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
